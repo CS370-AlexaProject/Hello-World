@@ -1,0 +1,28 @@
+GreetingsIntent hi
+GreetingsIntent hello
+GreetingsIntent hey
+GreetingsIntent hola
+GreetingsIntent how's it going
+GreetingsIntent howdy
+GreetingsIntent greetings
+GreetingsIntent salutations
+GreetingsIntent welcome
+GreetingsIntent good morning
+GreetingsIntent good afternoon
+GreetingsIntent good evening
+GreetingsIntent evening
+GreetingsIntent morning
+GreetingsIntent what's up
+GreetingsIntent why hello there
+GreetingsIntent look what the cat dragged in
+GreetingsIntent yo
+GreetingsIntent good day
+GreetingsIntent	how you doing
+GreetingsIntent howdydoody
+GreetingsIntent ello
+GreetingsIntent hai
+GreetingsIntent aloha
+GreetingsIntent sup
+GreetingsIntent wadup
+GreetingsIntent wayho
+GreetingsIntent helloth
