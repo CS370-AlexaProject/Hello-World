@@ -33,7 +33,7 @@ public class HelloWorldConversation extends Conversation {
 	//private final static Integer STATE_WAITING_DR_WHO = 100001;
 
 	//Session state storage key
-	private final static String SESSION_KNOCK_STATE = "knockState";
+	//private final static String SESSION_KNOCK_STATE = "knockState";
 
 	public HelloWorldConversation() {
 		super();
