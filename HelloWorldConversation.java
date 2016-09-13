@@ -22,7 +22,7 @@ import com.neong.voice.model.base.Conversation;
 
 public class HelloWorldConversation extends Conversation {
 	//Intent names
-	private final static String INTENT_START = "GreetingIntent";
+	private final static String INTENT_START = "GreetingsIntent";
 
 
 	//Slots
