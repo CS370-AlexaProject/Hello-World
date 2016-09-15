@@ -1,3 +1,5 @@
 mvn assembly:assembly -DdescriptorId=jar-with-dependencies package
 
-in template skill folder
+execute command in template skill folder
+
+jar is produced in the target folder, and named jar-with-dependencies. it should be ~8 MB
