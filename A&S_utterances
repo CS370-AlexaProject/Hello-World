@@ -1,7 +1,18 @@
+SSUAcademicCalendarIntent What academic due dates are happening this week
+SSUAcademicCalendarIntent Whats going on today?
+SSUAcademicCalendarIntent are there any due dates that I need to know about
+SSUAcademicCalendarIntent whats happening this week in the academic calendar
+SSUAcademicCalendarIntent what holidays are coming up
+SSUAcademicCalendarIntent when is the next holiday
+SSUAcademicCalendarIntent when is the next day off of school
+SSUAcademicCalendarIntent is there anything due tomorrow
 SSUAcademicCalendarIntent academic calendar 
 SSUAcademicCalendarIntent school calendar
 SSUAcademicCalendarIntent university calendar
 
+SSUSportingEventsCalendarIntent are there any sporting events happening
+SSUSportingEventsCalendarIntent what events are happening this week
+SSUSportingEventsCalendarIntent whats going on today
 SSUSportingEventsCalendarIntent sport calendar
 SSUSportingEventsCalendarIntent sports calendar
 SSUSportingEventsCalendarIntent basketball schedule
