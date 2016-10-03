@@ -44,12 +44,12 @@ public class SSUCalendar extends Conversation {
 	private final static int FAIL_CALENDAR = -1;
 	
 	//Sports
-	private final static string SOCCER = "soccer";
-	private final static string VOLLEYBALL = "volleyball";
-	private final static string CROSS_COUNTRY = "cross country";
-	private final static string GOLF = "golf";
-	private final static string TENNIS = "tennis";
-	private final static string BASKETBALL = "basketball";
+	private final static String SOCCER = "soccer";
+	private final static String VOLLEYBALL = "volleyball";
+	private final static String CROSS_COUNTRY = "cross country";
+	private final static String GOLF = "golf";
+	private final static String TENNIS = "tennis";
+	private final static String BASKETBALL = "basketball";
 	
 	
 	//Static Responses (For Demo)
@@ -66,12 +66,49 @@ public class SSUCalendar extends Conversation {
 		{"10-30-2016", "Last day for full-term withdrawal and receipt of pro-rated cancellation of fees."},
 		{"10-31-2016", "Last day of continuation of petition to withdraw from a class with fee."},
 		{"11-01-2016", "ERD deadline of New Spring 2017 students."}
-		};
+	};
 		
-	private final static Sring[][] STATIC_SPORTS_SOCCER = {
-		{"10-05-2016", ""}
-		};
-	
+	private final static String[][] STATIC_SPORTS_SOCCER = {
+		{"10-05-2016", "Sports Event 1"},
+                {"10-05-2016", "Sports Event 2"},
+                {"10-06-2016", "Sports Event 3"}
+	};
+        
+	private final static String[][] STATIC_SOCCER_TABLE = {
+		{"10-05-2016", "Soccer 1"},
+                {"10-06-2016", "Soccer 2"},
+                {"10-07-2016", "Soccer 3"}
+	};
+        
+        private final static String[][] STATIC_VOLLEYBALL_TABLE = {
+		{"10-05-2016", "VOLLEYBALL 1"},
+                {"10-06-2016", "VOLLEYBALL 2"},
+                {"10-07-2016", "VOLLEYBALL 3"}
+	};
+        
+        private final static String[][] STATIC_CROSS_COUNTRY_TABLE = {
+		{"10-05-2016", "CROSS COUNTRY 1"},
+                {"10-06-2016", "CROSS COUNTRY 2"},
+                {"10-07-2016", "CROSS COUNTRY 3"}
+	};
+        
+        private final static String[][] STATIC_GOLF_TABLE = {
+		{"10-05-2016", "GOLF 1"},
+                {"10-06-2016", "GOLF 2"},
+                {"10-07-2016", "GOLF 3"}
+	};
+        
+        private final static String[][] STATIC_TENNIS_TABLE = {
+		{"10-05-2016", "TENNIS 1"},
+                {"10-06-2016", "TENNIS 2"},
+                {"10-07-2016", "TENNIS 3"}
+	};
+        
+        private final static String[][] STATIC_BASKETBALL_TABLE = {
+		{"10-05-2016", "BASKETBALL 1"},
+                {"10-06-2016", "BASKETBALL 2"},
+                {"10-07-2016", "BASKETBALL 3"}
+	};
 	//Session state storage key
     //private final static String SESSION_KNOCK_STATE = "knockState";
 
@@ -156,35 +193,36 @@ public class SSUCalendar extends Conversation {
 				
 	}
 	
-	private String[] getFromDatabase(String date, int calendar, String sport){
+	private String[][] getFromDatabase(String date, int calendar, String sport){
 		// Will eventually return all events in a category starting at date and going on for some period of time
-		\
+		
 		if(calendar == ACADEMIC_CALENDAR){
 			return STATIC_ACADEMIC_TABLE;
 		}
 		if(calendar == SPORTS_CALENDAR){
-			if(sport == ""){
+			if(sport.equals("")){
 				return null;
 			}
-			if(sport == SOCCER){
+			if(sport.equals(SOCCER)){
 				return STATIC_SOCCER_TABLE;
 			}
-			if(sport == VOLLEYBALL){
+			if(sport.equals(VOLLEYBALL)){
 				return STATIC_VOLLEYBALL_TABLE;
 			}
-			if(sport == CROSS_COUNTRY){
+			if(sport.equals(CROSS_COUNTRY)){
 				return STATIC_CROSS_COUNTRY_TABLE;
 			}
-			if(sport == GOLF){
+			if(sport.equals(GOLF)){
 				return STATIC_GOLF_TABLE;
 			}
-			if(sport == TENNIS){
+			if(sport.equals(TENNIS) ){
 				return STATIC_TENNIS_TABLE;
 			}
-			if(sport == BASKETBALL){
+			if(sport.equals(BASKETBALL)){
 				return STATIC_BASKETBALL_TABLE;
 			}
 		}
+                return null;
 	}
 	
 	/*
