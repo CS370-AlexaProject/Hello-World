@@ -1,13 +1,34 @@
 {
-  "intents": [
+    "intents": [
     {
-      "intent": "StartKnockIntent"
-    },
-	{
-      "intent": "WhoDerIntent"
+      "intent": "SSUCalendarIntent",
+      "slots":[
+        {
+           "name":"Date",
+           "type":"AMAZON.DATE"
+    	}
+
+      ]
     },
     {
-      "intent": "DrWhoIntent"
+      "intent": "SSUAcademicCalendarIntent",
+      "slots":[
+        {
+           "name":"Date",
+           "type":"AMAZON.DATE"
+    	}
+
+      ]
+    },
+    {
+      "intent": "SSUSportingEventsCalendarIntent",
+      "slots":[
+        {
+           "name":"Date",
+           "type":"AMAZON.DATE"
+    	}
+
+      ]
     },
     {
       "intent": "AMAZON.YesIntent"
