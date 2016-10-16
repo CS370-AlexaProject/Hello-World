@@ -29,6 +29,54 @@ SSUSportingEventsCalendarIntent weekly calender
 SSUSportingEventsCalendarIntent weekly sporting events
 SSUSportingEventsCalendarIntent event schedule 
 
+WhichCalendar sports
+WhichCalendar sporting
+WhichCalendar sport
+WhichCalendar academic
+WhichCalendar financial
+WhichCalendar holiday
+WhichCalendar school
+
+
+AcademicType financial aid
+AcademicType financial
+AcademicType money
+AcademicType holiday
+AcademicType holidays
+AcademicType days off
+AcademicType academic dates
+AcademicType financial dates
+AcademicType due dates
+
+SportType baseball
+SportType volleyball
+SportType golf 
+SportType cross country
+SportType water polo
+SportType basketball
+SportType tennis
+SportType softball
+SportType track and field 
+SportType soccer 
+
+timeOfDay afternoon
+timeOfDay morning
+timeOfDay night
+timeOfDay today
+
+soccer soccer
+volleyball volleyball
+crossCountry cross country
+baseball baseball
+golf golf
+waterpolo water polo
+basketball basketball
+tennis tennis
+softball softball
+trackandfield track and field
+
+
+
 
 AcademicType financial aid
 AcademicType financial
